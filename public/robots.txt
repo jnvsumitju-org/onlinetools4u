@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://onlinetools4u.com/sitemap.xml
