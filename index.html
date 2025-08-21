@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Tools 4U — 25 Handy Web Utilities</title>
+    <meta name="description" content="Online Tools 4U: Discover 25 popular online tools for PDFs, images, text, calculators, and more. Fast, simple, and handy web utilities." />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Online Tools 4U — 25 Handy Web Utilities" />
+    <meta property="og:description" content="Discover 25 popular online tools for PDFs, images, text, calculators, and more." />
+    <meta property="og:url" content="https://onlinetools4u.com/" />
+    <meta property="og:image" content="/logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Online Tools 4U — 25 Handy Web Utilities" />
+    <meta name="twitter:description" content="Discover 25 popular online tools for PDFs, images, text, calculators, and more." />
+    <meta name="twitter:image" content="/logo.svg" />
+
+    <!-- JSON-LD Schema: ItemList of tools -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Online Tools 4U",
+        "description": "A curated list of popular online tools",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "iLovePDF", "url": "https://www.ilovepdf.com" },
+          { "@type": "ListItem", "position": 2, "name": "Smallpdf", "url": "https://smallpdf.com" },
+          { "@type": "ListItem", "position": 3, "name": "PDF24 Tools", "url": "https://tools.pdf24.org" },
+          { "@type": "ListItem", "position": 4, "name": "Calculator.net", "url": "https://www.calculator.net" },
+          { "@type": "ListItem", "position": 5, "name": "Desmos", "url": "https://www.desmos.com" },
+          { "@type": "ListItem", "position": 6, "name": "JSONLint", "url": "https://jsonlint.com" },
+          { "@type": "ListItem", "position": 7, "name": "JSON Formatter & Validator", "url": "https://jsonformatter.curiousconcept.com" },
+          { "@type": "ListItem", "position": 8, "name": "Regex101", "url": "https://regex101.com" },
+          { "@type": "ListItem", "position": 9, "name": "DiffNow", "url": "https://www.diffnow.com" },
+          { "@type": "ListItem", "position": 10, "name": "TinyPNG", "url": "https://tinypng.com" },
+          { "@type": "ListItem", "position": 11, "name": "Compressor.io", "url": "https://compressor.io" },
+          { "@type": "ListItem", "position": 12, "name": "TinyJPG", "url": "https://tinyjpg.com" },
+          { "@type": "ListItem", "position": 13, "name": "Canva", "url": "https://www.canva.com" },
+          { "@type": "ListItem", "position": 14, "name": "Grammarly", "url": "https://www.grammarly.com" },
+          { "@type": "ListItem", "position": 15, "name": "Duolingo", "url": "https://www.duolingo.com" },
+          { "@type": "ListItem", "position": 16, "name": "Trello", "url": "https://www.trello.com" },
+          { "@type": "ListItem", "position": 17, "name": "Asana", "url": "https://asana.com" },
+          { "@type": "ListItem", "position": 18, "name": "Google Translate", "url": "https://translate.google.com" },
+          { "@type": "ListItem", "position": 19, "name": "Tiny Wow", "url": "https://tinywow.com" },
+          { "@type": "ListItem", "position": 20, "name": "ChatGPT", "url": "https://chat.openai.com" },
+          { "@type": "ListItem", "position": 21, "name": "Google Gemini", "url": "https://gemini.google.com" },
+          { "@type": "ListItem", "position": 22, "name": "Copy.ai", "url": "https://www.copy.ai" },
+          { "@type": "ListItem", "position": 23, "name": "Craiyon", "url": "https://www.craiyon.com" },
+          { "@type": "ListItem", "position": 24, "name": "Lumen5", "url": "https://lumen5.com" }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      try {
+        var t = localStorage.getItem('theme');
+        if (t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

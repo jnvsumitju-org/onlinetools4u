@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: onlinetools4u:web
+    container_name: onlinetools4u-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - letsencrypt:/etc/letsencrypt
+      - certbot-challenges:/var/www/certbot
+    restart: unless-stopped
+
+  certbot:
+    image: certbot/certbot:latest
+    container_name: onlinetools4u-certbot
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot-challenges:/var/www/certbot
+    entrypoint: >-
+      sh -c "trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet; sleep 12h & wait $!; done"
+
+volumes:
+  letsencrypt:
+  certbot-challenges:

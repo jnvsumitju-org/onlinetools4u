@@ -1,0 +1,146 @@
+[
+    {
+      "name": "iLovePDF",
+      "description": "Online PDF conversions & edits (merge, split, compress, convert)",
+      "category": "PDF",
+      "link": "https://www.ilovepdf.com"
+    },
+    {
+      "name": "Smallpdf",
+      "description": "Comprehensive PDF toolkit: compress, edit, convert",
+      "category": "PDF",
+      "link": "https://smallpdf.com"
+    },
+    {
+      "name": "PDF24 Tools",
+      "description": "Free PDF tools for splitting, merging, converting, editing",
+      "category": "PDF",
+      "link": "https://tools.pdf24.org"
+    },
+    {
+      "name": "Calculator.net",
+      "description": "Wide range of online calculators (math, finance, health)",
+      "category": "Calculator",
+      "link": "https://www.calculator.net"
+    },
+    {
+      "name": "Desmos",
+      "description": "Graphing calculator and math tool for visualizing equations",
+      "category": "Calculator",
+      "link": "https://www.desmos.com"
+    },
+    {
+      "name": "JSONLint",
+      "description": "JSON validator and formatter",
+      "category": "Developer",
+      "link": "https://jsonlint.com"
+    },
+    {
+      "name": "JSON Formatter & Validator",
+      "description": "Format and validate JSON code easily",
+      "category": "Developer",
+      "link": "https://jsonformatter.curiousconcept.com"
+    },
+    {
+      "name": "Regex101",
+      "description": "Regex tester, debugger with explanation",
+      "category": "Developer",
+      "link": "https://regex101.com"
+    },
+    {
+      "name": "DiffNow",
+      "description": "Compare text or files online",
+      "category": "Developer",
+      "link": "https://www.diffnow.com"
+    },
+    {
+      "name": "TinyPNG",
+      "description": "Compress PNG and JPEG images while preserving quality",
+      "category": "Image",
+      "link": "https://tinypng.com"
+    },
+    {
+      "name": "Compressor.io",
+      "description": "Ultra-high image compression (JPEG, PNG, GIF, SVG)",
+      "category": "Image",
+      "link": "https://compressor.io"
+    },
+    {
+      "name": "TinyJPG",
+      "description": "JPEG image compressor",
+      "category": "Image",
+      "link": "https://tinyjpg.com"
+    },
+    {
+      "name": "Canva",
+      "description": "Design graphics, social media posts, presentations",
+      "category": "Productivity",
+      "link": "https://www.canva.com"
+    },
+    {
+      "name": "Grammarly",
+      "description": "Writing assistant for grammar, spelling, clarity",
+      "category": "Productivity",
+      "link": "https://www.grammarly.com"
+    },
+    {
+      "name": "Duolingo",
+      "description": "Fun, gamified language learning platform",
+      "category": "Productivity",
+      "link": "https://www.duolingo.com"
+    },
+    {
+      "name": "Trello",
+      "description": "Kanban board for workflow and project management",
+      "category": "Productivity",
+      "link": "https://www.trello.com"
+    },
+    {
+      "name": "Asana",
+      "description": "Task and project management tool for teams",
+      "category": "Productivity",
+      "link": "https://asana.com"
+    },
+    {
+      "name": "Google Translate",
+      "description": "Instant translation between languages",
+      "category": "Translator",
+      "link": "https://translate.google.com"
+    },
+    {
+      "name": "Tiny Wow",
+      "description": "Free online tools for PDF, image, and more",
+      "category": "Multi-utility",
+      "link": "https://tinywow.com"
+    },
+    {
+      "name": "ChatGPT",
+      "description": "AI-powered conversational assistant and content generator",
+      "category": "AI",
+      "link": "https://chat.openai.com"
+    },
+    {
+      "name": "Google Gemini",
+      "description": "Google’s AI tool for text and image generation",
+      "category": "AI",
+      "link": "https://gemini.google.com"
+    },
+    {
+      "name": "Copy.ai",
+      "description": "AI tool for generating marketing content and copy",
+      "category": "AI",
+      "link": "https://www.copy.ai"
+    },
+    {
+      "name": "Craiyon",
+      "description": "Web-based AI image generator",
+      "category": "AI",
+      "link": "https://www.craiyon.com"
+    },
+    {
+      "name": "Lumen5",
+      "description": "Turn blogs into engaging videos with AI",
+      "category": "AI",
+      "link": "https://lumen5.com"
+    }
+  ]
