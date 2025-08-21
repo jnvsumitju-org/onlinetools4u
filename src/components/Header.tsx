@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Switch } from '@/components/ui/switch'
 import { useTheme } from './ThemeProvider'
+import { GoogleAd } from './GoogleAd'
 
 type HeaderProps = {
   value: string
@@ -50,9 +51,7 @@ export function Header({ value, onChange }: HeaderProps) {
         />
       </div>
       <div className="container my-2">
-        <div className="w-full min-h-[60px] rounded-md border border-dashed text-center grid place-items-center text-sm text-neutral-500">
-          Ad placeholder (Header)
-        </div>
+        <GoogleAd slot="YOUR_HEADER_SLOT_ID" className="w-full" style={{ display: 'block' }} />
       </div>
     </header>
   )
