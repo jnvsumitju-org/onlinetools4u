@@ -20,9 +20,12 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 23.9.0
+          node-version: 20   # use stable LTS; 23.x is experimental
 
       - name: Debug env
+        run: |
+          echo "S3_BUCKET=$S3_BUCKET"
+          echo "CF_DISTRIBUTION_ID=$CF_DISTRIBUTION_ID"
 
       - run: npm ci
       - run: npm run build
