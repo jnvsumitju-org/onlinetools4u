@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Switch } from '@/components/ui/switch'
 import { useTheme } from './ThemeProvider'
-import { GoogleAd } from './GoogleAd'
+ 
 
 type HeaderProps = {
   value: string
@@ -49,9 +49,6 @@ export function Header({ value, onChange }: HeaderProps) {
           onChange={(e) => onChange(e.target.value)}
           className="h-10"
         />
-      </div>
-      <div className="container my-2">
-        <GoogleAd slot="YOUR_HEADER_SLOT_ID" className="w-full" style={{ display: 'block' }} />
       </div>
     </header>
   )
