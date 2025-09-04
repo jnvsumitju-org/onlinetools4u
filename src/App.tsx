@@ -34,14 +34,14 @@ function App() {
     <div className="min-h-dvh flex flex-col">
       <Header value={query} onChange={setQuery} />
       <main id="main" className="container flex-1 py-6 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6">
-        <section className="min-w-0">
+        <section className="min-w-0 order-2 lg:order-1">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold">Popular Tools</h2>
             <span className="text-sm text-muted-foreground">{filtered.length} results</span>
           </div>
           <ToolGrid tools={filtered} />
         </section>
-        <aside className="space-y-4">
+        <aside className="space-y-4 order-1 lg:order-2">
           <div className="rounded-lg border p-4">
             <div className="font-medium mb-2">Categories</div>
             <ul className="text-sm space-y-1">
