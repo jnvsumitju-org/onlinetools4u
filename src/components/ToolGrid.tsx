@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import type { ToolItem } from '@/types'
 import { ToolCard } from './ToolCard'
-import { AdBanner } from './AdBanner'
+ 
 
 type ToolGridProps = {
   tools: ToolItem[]
@@ -14,11 +14,7 @@ export function ToolGrid({ tools }: ToolGridProps) {
       {items.map((t, i) => (
         <div key={t.name + i} className="contents">
           <ToolCard tool={t} />
-          {((i + 1) % 8 === 0) && (
-            <div className="col-span-full">
-              <AdBanner label="Ad placeholder (Inline)" />
-            </div>
-          )}
+          
         </div>
       ))}
     </div>

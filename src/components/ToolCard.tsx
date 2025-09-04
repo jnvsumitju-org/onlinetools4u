@@ -38,7 +38,7 @@ export const ToolCard = memo(function ToolCard({ tool }: ToolCardProps) {
           </p>
           <Button asChild className="mt-auto w-full">
             <a href={tool.link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${tool.name} in new tab`}>
-              Visit Tool
+              Use Tool
             </a>
           </Button>
         </CardContent>

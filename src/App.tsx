@@ -5,7 +5,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { ToolGrid } from '@/components/ToolGrid'
 // import { AdBanner } from '@/components/AdBanner'
-import { GoogleAd } from '@/components/GoogleAd'
+ 
 
 function normalize(text: string) {
   return text.toLowerCase()
@@ -42,7 +42,6 @@ function App() {
           <ToolGrid tools={filtered} />
         </section>
         <aside className="space-y-4">
-          <GoogleAd slot="YOUR_SIDEBAR_SLOT_ID" className="w-full" />
           <div className="rounded-lg border p-4">
             <div className="font-medium mb-2">Categories</div>
             <ul className="text-sm space-y-1">
